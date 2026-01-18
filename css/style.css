@@ -1,0 +1,85 @@
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Inter,Arial;
+  background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  color:#fff;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center
+}
+.card{
+  width:100%;
+  max-width:420px;
+  background:#111;
+  border-radius:16px;
+  padding:24px;
+  box-shadow:0 20px 40px rgba(0,0,0,.6)
+}
+h1,h2{
+  text-align:center;
+  margin:0 0 16px;
+  color:#00ffd5
+}
+input,textarea{
+  width:100%;
+  padding:12px;
+  margin-top:10px;
+  border-radius:10px;
+  border:none;
+  background:#1e1e1e;
+  color:#fff
+}
+textarea{min-height:120px;resize:none}
+button{
+  margin-top:12px;
+  padding:12px;
+  width:100%;
+  border:none;
+  border-radius:10px;
+  background:#00ffd5;
+  color:#000;
+  font-weight:700;
+  cursor:pointer;
+  transition:0.3s
+}
+button.secondary{
+  background:#333;
+  color:#fff
+}
+a{
+  color:#00ffd5;
+  text-decoration:none;
+  font-size:14px
+}
+.nav{
+  display:flex;
+  justify-content:space-between;
+  margin-top:10px
+}
+.code{
+  background:#0b0b0b;
+  border-radius:10px;
+  padding:12px;
+  margin-top:10px;
+  font-size:14px
+}
+small{color:#aaa}
+
+/* Profil butonu özel */
+button.profile-btn {
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 800; /* daha kalın */
+  background: #ff6f61; /* göze çarpan renk */
+  color: #fff;
+  border-radius: 12px;
+  padding: 12px;
+  width: auto; /* diğer buton gibi tam genişlik değil */
+  min-width: 100px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button.profile-btn:hover {
+  background: #ff5a4d; /* hover efekti */
+}
